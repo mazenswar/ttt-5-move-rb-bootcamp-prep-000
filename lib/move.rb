@@ -15,6 +15,6 @@ end
 def move(arr, index, char = "x")
   index = input_to_index(index)
   arr[index] = char
-  return board
+  return arr
    
 end
